@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Nosso Namoro ❤️</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Estamos juntos há</h1>
+        <p id="contador">{{dias}} dias</p>
+        <img src="{{url_for('static', filename='fotonossa.jpg')}}" alt="Foto do casal">
+    </div>
+    <div class="hearts">
+        <div class="heart">❤️</div>
+        <div class="heart"></div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+    </div>
+<script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+
+
+</html>
